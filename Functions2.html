@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+         // Call the adder function here.
+        function adder(x, y, z)
+        {
+            console.log(x+y+z)
+           alert(x+y+z)
+        }
+          adder(1,2,3)
+    
+
+    function multiplier(x,y,z)
+    {
+    // Call the multiplier function here.
+     console.log(x*y*z);
+     alert(x*Y*z)
+    }
+     multiplier(1,2,3)
+     
+        
+    // Call the isString function here.
+    function isString (x,y,z)
+
+    if(x === 'string' &&  y === 'string' &&  z ==='string')
+    {
+        Console.log(x,y,z)
+    }
+    else
+    {
+        console.log("no luck with resolving the string portion")
+    }
+
+    //function to find vowel
+  const vowel = (str)=>
+  {
+  //these are vowels we want to check for
+  const check = ['a','e','i','o','u'];
+  //keep track of vowels
+  var count = 0;
+  for(let char of str.toLowerCase())
+  {
+    //check if each character in string is in vowel array
+    if(check.includes(char)) count++;
+  }
+  return count;
+}
+
+console.log(vowel("hello there"));
+
+    
+    //git push -u origin maingit push -u origin main Call the vowelChecker function here.?
+    
+    // BONUS
+    // Call the adderReturn function here and set it equal to a variable. Then log that variable to the console.
+   // console.log("-------------------");
+    // Call the multiplierReturn function here and set it equal to a variable. Then log that variable to the consol
+     </script>  
+</body>
+
+</html>
